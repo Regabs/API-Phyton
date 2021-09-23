@@ -12,4 +12,4 @@ RUN chmod +x api.py
 EXPOSE 8000
 
 CMD ["/path/api.py"]
-ENTRPOINT ["python"]
+ENTRYPOINT ["python"]
